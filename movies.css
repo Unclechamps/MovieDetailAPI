@@ -1,0 +1,80 @@
+body {
+  width: 100%;
+  margin: auto;
+  font-family: Sunflower, helvetica, sans-serif;
+  color: white;
+  background-image: url('batmanbackground.jpg');
+  background-repeat: no-repeat;
+  background-size:  cover;
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 910px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+  width: 16%;
+}
+
+.movie a {
+  text-align: center;
+  text-decoration: none;
+}
+
+a:link {
+  color: #fff;
+}
+
+a:visited {
+  color: #ecf0f1;
+}
+
+a:hover {
+  color: red;
+}
+
+
+.poster {
+  height: 100px;
+  width: 75px;
+}
+
+/* MOVIE DETAIL */
+
+.movieDetail {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+
+}
+
+.title {
+  text-align: center;
+  width: 60%;
+}
+
+.detail {
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
