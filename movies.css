@@ -6,8 +6,8 @@ body {
   background-image: url('batmanbackground.jpg');
   background-repeat: no-repeat;
   background-size:  cover;
-  background-color: rgba(0, 0, 0, 0.2);
   min-height: 910px;
+  font-size: 1.1em;
 }
 
 h1 {
@@ -77,4 +77,89 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   width: 40%;
+}
+
+/* Large Devices, Wide Screens */
+/* @media only screen and (max-width : 1200px) {
+
+} */
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+body {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+
+}
+
+.movieDetail {
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+}
+
+.detail {
+  width: 50%;
+  align-items:  center;
+  font-size: 1.1em
+
+}
+
+.title {
+  width: 50%;
+  margin: 0;
+}
+
+.movie a {
+  font-size: 1.2em;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+.movie {
+  width: 40%;
+  font-size: 1.2em;
+}
+
+.movieDetail {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail {
+  width: 100%;
+  margin: 0;
+}
+
+.title {
+  width: 100%;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+.movie {
+  width: 100%;
+  font-size: 1.1em;
+}
+
+.poster {
+  height: 250px;
+  width: 175px;
+}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
 }
